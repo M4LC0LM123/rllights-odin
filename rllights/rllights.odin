@@ -4,6 +4,7 @@ import rl "vendor:raylib"
 import "core:c"
 
 when ODIN_OS == .Windows do foreign import rll "windows/rllights.lib"
+when ODIN_OS == .Linux do foreign import rll "linux/rllights.a"
 
 LightType :: enum {
     DIRECTIONAL = 0,
