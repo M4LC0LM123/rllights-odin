@@ -551,6 +551,7 @@ RLAPI void rlDisableTexture(void);                      // Disable texture
 RLAPI void rlEnableTextureCubemap(unsigned int id);     // Enable texture cubemap
 RLAPI void rlDisableTextureCubemap(void);               // Disable texture cubemap
 RLAPI void rlTextureParameters(unsigned int id, int param, int value); // Set texture parameters (filter, wrap)
+RLAPI void rlCubemapParameters(unsigned int id, int param, int value); // Set cubemap parameters (filter, wrap)
 
 // Shader state
 RLAPI void rlEnableShader(unsigned int id);             // Enable shader program
